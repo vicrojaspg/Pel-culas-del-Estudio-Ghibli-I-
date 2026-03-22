@@ -1,0 +1,54 @@
+body {
+    background-color: #0f172a;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+header p {
+    color: #94a3b8;
+}
+
+/* tarjetas */
+.card {
+    background-color: #1e293b;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* efecto hover */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+/* imagen */
+.card img {
+    height: 350px;
+    object-fit: cover;
+}
+
+/* texto */
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* footer */
+footer {
+    color: #94a3b8;
+}
